@@ -13,6 +13,7 @@
 		DEC9492F2C2A02BF00DD14E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEC9492E2C2A02BF00DD14E2 /* Assets.xcassets */; };
 		DEC949322C2A02BF00DD14E2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEC949312C2A02BF00DD14E2 /* Preview Assets.xcassets */; };
 		DEDC24272C34627100D6E999 /* AdressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDC24262C34627100D6E999 /* AdressView.swift */; };
+		DEDC24292C34893D00D6E999 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDC24282C34893D00D6E999 /* CheckoutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		DEC9492E2C2A02BF00DD14E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEC949312C2A02BF00DD14E2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DEDC24262C34627100D6E999 /* AdressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdressView.swift; sourceTree = "<group>"; };
+		DEDC24282C34893D00D6E999 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				DEB2C7B62C332B6900696F7C /* Order.swift */,
 				DEC9492E2C2A02BF00DD14E2 /* Assets.xcassets */,
 				DEC949302C2A02BF00DD14E2 /* Preview Content */,
+				DEDC24282C34893D00D6E999 /* CheckoutView.swift */,
 			);
 			path = "Cupcake Corner";
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 			files = (
 				DEDC24272C34627100D6E999 /* AdressView.swift in Sources */,
 				DEB2C7B72C332B6900696F7C /* Order.swift in Sources */,
+				DEDC24292C34893D00D6E999 /* CheckoutView.swift in Sources */,
 				DEC9492D2C2A02BE00DD14E2 /* ContentView.swift in Sources */,
 				DEC9492B2C2A02BE00DD14E2 /* Cupcake_CornerApp.swift in Sources */,
 			);
