@@ -58,12 +58,12 @@
 			isa = PBXGroup;
 			children = (
 				DEC9492A2C2A02BE00DD14E2 /* Cupcake_CornerApp.swift */,
+				DEB2C7B62C332B6900696F7C /* Order.swift */,
 				DEC9492C2C2A02BE00DD14E2 /* ContentView.swift */,
 				DEDC24262C34627100D6E999 /* AdressView.swift */,
-				DEB2C7B62C332B6900696F7C /* Order.swift */,
+				DEDC24282C34893D00D6E999 /* CheckoutView.swift */,
 				DEC9492E2C2A02BF00DD14E2 /* Assets.xcassets */,
 				DEC949302C2A02BF00DD14E2 /* Preview Content */,
-				DEDC24282C34893D00D6E999 /* CheckoutView.swift */,
 			);
 			path = "Cupcake Corner";
 			sourceTree = "<group>";
