@@ -31,10 +31,9 @@ class Order: Codable {
     var zip = ""
     
     var hasValidAddress: Bool {
-        if name.isEmpty || streetAddress.isEmpty || city.isEmpty || zip.isEmpty {
+        if name.isEmpty || name.isBlank || streetAddress.isEmpty || streetAddress.isBlank || city.isEmpty || city.isBlank || zip.isEmpty || zip.isBlank {
             return false
         }
-        
         return true
     }
     
@@ -68,5 +67,11 @@ class Order: Codable {
         case _city = "city"
         case _streetAddress = "streetAddress"
         case _zip = "zip"
+    }
+}
+
+extension String {
+    var isBlank: Bool {
+        allSatisfy({$0.isWhitespace})
     }
 }
